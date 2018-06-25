@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { AppRegistry, ActivityIndicator, Image, Text, View, FlatList, ScrollView, StyleSheet } from 'react-native';
 import { Card } from "react-native-elements";
 import { Container, Content, Header, Left, Body, Right, Button, Icon, Title } from 'native-base'
-import styles from './Assets/Styles/styles';
-import { HeaderContent } from './HeaderContent';
+import styles from '../Assets/styles/styles';
+import { HeaderContent } from '../utilities/HeaderContent';
 
 export class HomeScreen extends Component {
     constructor(props) {

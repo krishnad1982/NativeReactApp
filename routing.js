@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { AboutScreen } from './AboutScreen';
-import { HomeScreen } from './HomeScreen';
-import { ContactScreen } from './ContactScreen';
-import { SideBar } from './SideBar';
+import { AboutScreen } from './pages/AboutScreen';
+import { HomeScreen } from './pages//HomeScreen';
+import { ContactScreen } from './pages/ContactScreen';
+import { SideBar } from './utilities/SideBar';
 import { DrawerNavigator } from "react-navigation";
 
 const HomeScreenRouter = DrawerNavigator(

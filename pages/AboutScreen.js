@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Header, Content, H1, H2, H3, Text } from 'native-base'
-import { HeaderContent } from './HeaderContent';
-import styles from './Assets/Styles/styles';
+import { HeaderContent } from '../utilities/HeaderContent';
+import styles from '../Assets/styles/styles';
 
 export class AboutScreen extends Component {
     render() {

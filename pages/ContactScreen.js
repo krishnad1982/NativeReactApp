@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, Text } from 'react-native';
 import { Container, Content, Input, Item, Textarea, Form, Label, Picker, Icon, Button } from 'native-base'
-import { HeaderContent } from './HeaderContent';
+import { HeaderContent } from '../utilities/HeaderContent';
 
 export class ContactScreen extends Component {
     constructor(props) {
