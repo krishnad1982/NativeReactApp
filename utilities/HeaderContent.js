@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Content, Header, Left, Body, Right, Button, Icon, Title } from 'native-base'
-import styles from '../Assets/Styles/styles';
+import styles from '../Assets/styles/styles';
 
 
 export class HeaderContent extends Component {
